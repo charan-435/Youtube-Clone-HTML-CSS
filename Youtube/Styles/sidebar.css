@@ -1,0 +1,47 @@
+.sidebar
+{
+    display: flex;
+    width:72px;
+    flex-direction:column;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+    position: fixed;
+    top: 60px;
+
+    vertical-align: top;
+
+}
+.sidebardiv
+{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.15s;
+}
+.sidebardiv:hover
+{
+    background-color: rgb(232, 231, 231);
+}
+.sidebarbut
+{   border: none;
+    background-color: white;
+    padding: 0;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebutname
+{
+    font-family: Roboto;
+    font-size: 10px;
+    width: 100%;
+}
+.homepic,.explorepic,.subscriptionspic,.origpic,.ytmusicpic,.libpic
+{
+    width: 24px;
+    margin-bottom: 7px;
+}
